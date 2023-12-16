@@ -105,7 +105,7 @@ export default function DefaultLayout() {
                 <div>
                     <Toaster />
                 </div>
-                <header className="p-[20px] bg-white flex items-center justify-between">
+                <header className="p-[20px] lg:pl-[300px] bg-white flex items-center justify-between">
                     <div className="mx-auto text-center md:text-lg lg:text-xl font-bold">
                         <Greeting user={user} />
                     </div>

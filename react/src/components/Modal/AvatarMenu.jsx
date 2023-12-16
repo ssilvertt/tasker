@@ -46,7 +46,7 @@ const AvatarMenu = ({ user }) => {
     };
 
     if (isLoggedOut) {
-        // Move the return statement here
+        // Move the return statement
         return <Navigate to="/login" />;
     }
 
