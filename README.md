@@ -43,20 +43,18 @@ To install and run the project, follow these steps:
 
 6. Navigate to frontend directory
 
-7. Navigate to the project directory:
-
 ```sh
    cd tasker
    cd react
 ```
 
-8. Install dependencies:
+7. Install dependencies:
 
 ```sh
    npm install
 ```
 
-9. Start project:
+8. Start project:
 
 ```sh
    npm run dev
