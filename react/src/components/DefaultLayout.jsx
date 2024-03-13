@@ -69,7 +69,7 @@ export default function DefaultLayout() {
             <div className="flex flex-col overflow-y-auto bg-white w-20 md:w-64 lg:w-64">
                 <div className="flex items-start p-5 mb-9">
                     <Link to="/dashboard">
-                        <img src={picture} className="w-12" />
+                        <img src={picture} className="w-12" />  
                     </Link>
                 </div>
                 <nav className="flex flex-col h-max-screen pr-4 justify-center">

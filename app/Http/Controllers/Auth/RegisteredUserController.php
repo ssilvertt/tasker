@@ -37,6 +37,7 @@ class RegisteredUserController extends Controller
         Auth::login($user);
 
         // Создаем токен для пользователя
+        
         $token = $user->createToken('token-name')->plainTextToken;
 
         // Возвращаем пользователя и его токен

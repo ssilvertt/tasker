@@ -1,5 +1,5 @@
 import axios from "axios";
-import Cookies from "js-cookie";
+
 
 // Create axios instance with base url and credentials support
 export const axiosInstance = axios.create({

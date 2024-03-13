@@ -1,8 +1,8 @@
-import React, { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import defaultAvatar from "../../assets/default_avatar.png";
-import TaskContext from "../../contexts/TaskContext";
-import { AiOutlineEdit } from "react-icons/ai";
+import React, { useContext, useEffect, useState } from "react"
+import { AiOutlineEdit } from "react-icons/ai"
+import { Link } from "react-router-dom"
+import defaultAvatar from "../../assets/default_avatar.png"
+import TaskContext from "../../contexts/TaskContext"
 
 export default function ProfileCard(user) {
     const url = `http://localhost:8000${user.user.avatar}`;
